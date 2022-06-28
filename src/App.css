@@ -1,0 +1,109 @@
+
+
+
+
+/* Navbar */
+
+.navbar-link{
+  text-decoration: none;
+  
+  color: #ffffff;
+  font-weight: bold;
+
+}
+
+.navbar-link:hover{
+  color: rgb(241, 241, 203);
+}
+
+/* productDetails page */
+.mycard-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 40rem;
+}
+
+/* About page */
+.ab-page{
+  background-color: #ffffff;
+  /* background-color: #757373; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about{
+  flex-grow: 1;
+}
+
+.about_img{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.ab-main{
+  padding: 3em 6em 2em 6em;
+}
+
+.ab-img{
+  padding: 2em 6em 2em 6em;
+}
+
+.img_size{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+.img_size:hover {
+  transform: scale(1.03);
+}
+
+@media screen and (max-width: 767px){
+  .hide{
+    display: none !important;
+  }
+}
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
